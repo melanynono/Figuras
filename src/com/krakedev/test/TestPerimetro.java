@@ -14,6 +14,7 @@ public class TestPerimetro {
         Rectangulo rectangulo = new Rectangulo("Rectangulo", "amarillo", 4, 5);
         System.out.println("Perímetro del rectángulo: " + rectangulo.calcularPerimetro());
 		
+        
 	}
 
 }
