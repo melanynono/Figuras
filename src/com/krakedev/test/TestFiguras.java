@@ -13,7 +13,7 @@ public class TestFiguras {
 		Figura figura = new Figura("Circulo", "verde");
 		System.out.println(figura);
 		
-		Cuadrado cuadrado = new Cuadrado("Cuadrado", "blanco");
+		Cuadrado cuadrado = new Cuadrado("Cuadrado", "blanco", 2);
 		System.out.println(cuadrado);
 		
 		Triangulo triangulo = new Triangulo("Triangulo", "rojo");
