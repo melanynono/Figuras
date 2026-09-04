@@ -5,9 +5,8 @@ public class Graficador {
 	    public void graficar(Figura figura) {
 
 	        System.out.println(
-	            "Graficando " + figura.getNombre() + " de color " + figura.getColor());
+	            "Graficando " + figura.getNombre() + " de color " + figura.getColor()+ " con perímetro " + figura.calcularPerimetro() + " y area " + figura.calcularArea());
 	        
-	        System.out.println("Perimetro: " + figura.calcularPerimetro());
 	    }
 	
 }
