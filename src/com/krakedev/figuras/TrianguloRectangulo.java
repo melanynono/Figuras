@@ -2,11 +2,11 @@ package com.krakedev.figuras;
 
 public class TrianguloRectangulo extends Figura {
 	
-	private double catetoA;
-	private double catetoB;
+	private int catetoA;
+	private int catetoB;
 	private double hipotenusa;
 	
-	public TrianguloRectangulo(String nombre, String color, double catetoA, double catetoB) {
+	public TrianguloRectangulo(String nombre, String color, int catetoA, int catetoB) {
 
         super(nombre, color);
         this.catetoA = catetoA;
